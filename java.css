@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    /* Add any other styling for the logo here */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  main {
+    position: relative;
+    /* top: 5px; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Half of the viewport height */
+  }
+  .text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    text-decoration: double;
+  }
+  /* Styles for the header (navbar) and main content */
+/* ... Include your existing header and main content styles here ... */
+
+/* Styles for the exploration section */
+ /* Styles for the header (navbar) and main content */
+/* ... Include your existing header and main content styles here ... */
+
+/* Styles for the exploration section */
+.exploration-section {
+  display: flex 1;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 20px;
+  position: relative;
+  left: 80%;
+}
+
+.course-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.course-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hover-content {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: left 0.3s ease;
+}
+
+.course-box:hover .hover-content {
+  left: 0;
+}
+
+.hover-content h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+  .exploration-section {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .course-box {
+      width: calc(50% - 20px);
+  }
+}
+
+.pdf-section {
+ 
+  
+  position: relative;
+  top: 90px;
+  /* bottom: 10px;; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.course-box {
+
+  position: relative;
+  top: 150px;;
+  width: 150px;
+  height: 150px;
+  background-color: #265e93;
+  background-color: #201d1d;
+  border: 2px solid #c73737;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.course-box h3 {
+  
+  font-size: 18px;
+  text-align: center;
+  /* background-color: #333; */
+  text-decoration:rgb(15, 14, 14);
+}
+.course{
+
+  text-align: center;
+  text-shadow: #e6dbdb;
+}
+.video-section {
+ 
+  
+  position: relative;
+  top: 150px;
+  /* bottom: 10px;; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.course-box {
+
+  position: relative;
+  top: 150px;;
+  width: 150px;
+  height: 150px;
+  background-color: #265e93;
+  background-color: #201d1d;
+  border: 2px solid #c73737;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.course-box h3 {
+  
+  font-size: 18px;
+  text-align: center;
+  /* background-color: #333; */
+  text-decoration:darkgray;
+}
+.course{
+
+  text-align: center;
+  text-shadow: #555;
+}
+
+  .image-section img {
+    display: flex 2;
+    flex-direction: row;
+    position: relative;
+    bottom: 370px;;
+    max-width: 100%;
+    max-height: 10%;
+    /* padding: 10px; */
+  }
+  .java-image-section img {
+    display: flex 2;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    position: relative;
+    border: image width 30px;;
+  }
+  
